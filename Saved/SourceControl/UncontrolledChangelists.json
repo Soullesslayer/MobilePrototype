@@ -5,7 +5,12 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"F:/GameBulidMobile/MobilePrototype/Content/StarterContent/Architecture/Floor_400x400.uasset"
+				"F:/GameBulidMobile/MobilePrototype/Content/StarterContent/Architecture/Floor_400x400.uasset",
+				"F:/GameBulidMobile/MobilePrototype/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/9Q/U98KGKQ41NJYFOGFQM8ZDY.uasset",
+				"F:/GameBulidMobile/MobilePrototype/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/MS/MRHJREJ6H7USQYWF1KO8F6.uasset",
+				"F:/GameBulidMobile/MobilePrototype/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/0G/JNKFA4X9LRMSF343ESPF6Q.uasset",
+				"F:/GameBulidMobile/MobilePrototype/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/QF/BY1DA5CRGQSAMOTK8RA8KR.uasset",
+				"F:/GameBulidMobile/MobilePrototype/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/YO/NG2R9BPZVA7ZDN0Z4VSTG6.uasset"
 			]
 		}
 	]
