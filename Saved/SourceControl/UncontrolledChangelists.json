@@ -5,6 +5,8 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"E:/UE5/UEProjects/MobilePrototype/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
+				"E:/UE5/UEProjects/MobilePrototype/Content/ThirdPerson/Input/IMC_Default.uasset",
 				"F:/GameBulidMobile/MobilePrototype/Content/StarterContent/Architecture/Floor_400x400.uasset",
 				"F:/GameBulidMobile/MobilePrototype/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/9Q/U98KGKQ41NJYFOGFQM8ZDY.uasset",
 				"F:/GameBulidMobile/MobilePrototype/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/MS/MRHJREJ6H7USQYWF1KO8F6.uasset",
