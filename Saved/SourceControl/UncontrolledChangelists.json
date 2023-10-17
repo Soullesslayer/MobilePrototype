@@ -5,6 +5,20 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"F:/GameBulidMobile/MobilePrototype/Content/StarterContent/Architecture/Floor_400x400.uasset",
+				"F:/GameBulidMobile/MobilePrototype/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/YO/NG2R9BPZVA7ZDN0Z4VSTG6.uasset",
+				"F:/GameBulidMobile/MobilePrototype/Content/StarterContent/Materials/M_Ground_Moss.uasset",
+				"F:/GameBulidMobile/MobilePrototype/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/XA/HTINA88QU2TRLB9M6QRU0N.uasset",
+				"F:/GameBulidMobile/MobilePrototype/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/DR/Y6254JJ5O1PARYP0VTV02Z.uasset",
+				"F:/GameBulidMobile/MobilePrototype/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/MX/7RA442CSAFS2L6113OD3HK.uasset",
+				"F:/GameBulidMobile/MobilePrototype/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/ZD/33JEDDAVQFWJON9IP0PQ26.uasset",
+				"F:/GameBulidMobile/MobilePrototype/Content/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.uasset",
+				"F:/GameBulidMobile/MobilePrototype/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
+				"F:/GameBulidMobile/MobilePrototype/Content/ThirdPerson/Blueprints/BP_PlayerStats.uasset",
+				"F:/GameBulidMobile/MobilePrototype/Content/ThirdPerson/Blueprints/BP_Enemy.uasset",
+				"F:/GameBulidMobile/MobilePrototype/Content/ThirdPerson/Blueprints/Bp_test.uasset",
+				"F:/GameBulidMobile/MobilePrototype/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/OG/3YFCFXD8YB1E7FD415VQR2.uasset",
+				"F:/GameBulidMobile/MobilePrototype/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/P2/OVPEW1YWKLH1XM8G36Q89Z.uasset",
 				"E:/UE5/UEProjects/MobilePrototype/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
 				"E:/UE5/UEProjects/MobilePrototype/Content/ThirdPerson/Input/IMC_Default.uasset",
 				"E:/UE5/UEProjects/MobilePrototype/Content/ThirdPerson/Blueprints/BP_Enemy.uasset",
@@ -21,12 +35,10 @@
 				"E:/UE5/UEProjects/MobilePrototype/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/YO/NG2R9BPZVA7ZDN0Z4VSTG6.uasset",
 				"E:/UE5/UEProjects/MobilePrototype/Content/StarterContent/Materials/M_Ground_Grass.uasset",
 				"E:/UE5/UEProjects/MobilePrototype/Content/StarterContent/Textures/T_Ground_Grass_D.uasset",
-				"F:/GameBulidMobile/MobilePrototype/Content/StarterContent/Architecture/Floor_400x400.uasset",
 				"F:/GameBulidMobile/MobilePrototype/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/5/9Q/U98KGKQ41NJYFOGFQM8ZDY.uasset",
 				"F:/GameBulidMobile/MobilePrototype/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/MS/MRHJREJ6H7USQYWF1KO8F6.uasset",
 				"F:/GameBulidMobile/MobilePrototype/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/0G/JNKFA4X9LRMSF343ESPF6Q.uasset",
-				"F:/GameBulidMobile/MobilePrototype/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/QF/BY1DA5CRGQSAMOTK8RA8KR.uasset",
-				"F:/GameBulidMobile/MobilePrototype/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/YO/NG2R9BPZVA7ZDN0Z4VSTG6.uasset"
+				"F:/GameBulidMobile/MobilePrototype/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/QF/BY1DA5CRGQSAMOTK8RA8KR.uasset"
 			]
 		}
 	]
