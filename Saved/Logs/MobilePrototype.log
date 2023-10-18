@@ -8002,3 +8002,4 @@ please set the "Use T0 as ref pose" option or add them to the bind pose and reim
 [2023.10.18-13.29.15:528][839]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
 [2023.10.18-13.29.15:620][841]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
 [2023.10.18-13.29.53:031][319]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2023.10.18-13.31.20:342][979]LogDerivedDataCache: C:/Users/ellie/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:01:29.031 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 47140 files in 45322 folders with total size 5142 MiB.
