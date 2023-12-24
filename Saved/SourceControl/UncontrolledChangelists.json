@@ -10,7 +10,8 @@
 				"E:/UE5/UEProjects/MobilePrototype/Content/ThirdPerson/Character/Blueprints/BPC_CombatSystem.uasset",
 				"E:/UE5/UEProjects/MobilePrototype/Content/ThirdPerson/Character/Model/Knight/Knight_fbx_Skeleton.uasset",
 				"E:/UE5/UEProjects/MobilePrototype/Content/ThirdPerson/Character/Model/Knight/Sword/Sword_LowPoly.uasset",
-				"E:/UE5/UEProjects/MobilePrototype/Content/ThirdPerson/Character/Model/Knight/Sword/CHEKER.uasset"
+				"E:/UE5/UEProjects/MobilePrototype/Content/ThirdPerson/Character/Model/Knight/Sword/CHEKER.uasset",
+				"E:/UE5/UEProjects/MobilePrototype/Content/ThirdPerson/Character/Blueprints/ABP_Knight.uasset"
 			]
 		}
 	]
