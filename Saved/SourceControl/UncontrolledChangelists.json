@@ -4,7 +4,14 @@
 		{
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
-			"files": []
+			"files": [
+				"E:/UE5/UEProjects/MobilePrototype/Content/ThirdPerson/Character/Blueprints/BP_ThirdPersonCharacter.uasset",
+				"E:/UE5/UEProjects/MobilePrototype/Content/ThirdPerson/Character/Animations/Knight/Combat/Stable_Sword_Outward_Slash.uasset",
+				"E:/UE5/UEProjects/MobilePrototype/Content/ThirdPerson/Character/Blueprints/BPC_CombatSystem.uasset",
+				"E:/UE5/UEProjects/MobilePrototype/Content/ThirdPerson/Character/Model/Knight/Knight_fbx_Skeleton.uasset",
+				"E:/UE5/UEProjects/MobilePrototype/Content/ThirdPerson/Character/Model/Knight/Sword/Sword_LowPoly.uasset",
+				"E:/UE5/UEProjects/MobilePrototype/Content/ThirdPerson/Character/Model/Knight/Sword/CHEKER.uasset"
+			]
 		}
 	]
 }
