@@ -11,7 +11,11 @@
 				"E:/UE5/UEProjects/MobilePrototype/Content/ThirdPerson/Character/Model/Knight/Knight_fbx_Skeleton.uasset",
 				"E:/UE5/UEProjects/MobilePrototype/Content/ThirdPerson/Character/Model/Knight/Sword/Sword_LowPoly.uasset",
 				"E:/UE5/UEProjects/MobilePrototype/Content/ThirdPerson/Character/Model/Knight/Sword/CHEKER.uasset",
-				"E:/UE5/UEProjects/MobilePrototype/Content/ThirdPerson/Character/Blueprints/ABP_Knight.uasset"
+				"E:/UE5/UEProjects/MobilePrototype/Content/ThirdPerson/Character/Blueprints/ABP_Knight.uasset",
+				"E:/UE5/UEProjects/MobilePrototype/Content/ThirdPerson/Enemy/Crow_Enemy/Blueprint/Bp_EnemyZombie.uasset",
+				"E:/UE5/UEProjects/MobilePrototype/Content/ThirdPerson/Enemy/Crow_Enemy/Blueprint/BP_EnemyCrow.uasset",
+				"E:/UE5/UEProjects/MobilePrototype/Content/ThirdPerson/Character/Animations/Knight/Combat/BP_Notify_SwordTraceLoop.uasset",
+				"E:/UE5/UEProjects/MobilePrototype/Content/ThirdPerson/Character/Animations/Knight/Combat/Stable_Sword.uasset"
 			]
 		}
 	]
