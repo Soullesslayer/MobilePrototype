@@ -19,11 +19,23 @@ void AMPCrow::Tick(float DeltaTime)
 
 	if (IsValid(BenchmarkPoi))
 	{
-		if (!bWait) {
-			FVector PoiLocation = BenchmarkPoi->GetActorLocation();
-			FVector DiffLocation = PoiLocation - GetActorLocation();
-			DiffLocation.Normalize();
+		FVector PoiLocation = BenchmarkPoi->GetActorLocation();
+		FVector DiffLocation = PoiLocation - GetActorLocation();
+		DiffLocation.Normalize();
 
+		if (GetController())
+		{
+			if (!GetVelocity().IsNearlyZero())
+			{
+				// Set mesh rotation
+				FRotator NewRotation = FMath::RInterpConstantTo(CrowMesh->GetComponentRotation(), DiffLocation.Rotation(), DeltaTime, RotationSpeed);
+				CrowMesh->SetWorldLocationAndRotationNoPhysics(CrowMesh->GetComponentLocation(), NewRotation);
+			}
+
+			AddMovementInput(DiffLocation);
+		}
+		else if (!bWait)
+		{
 			// Set mesh rotation
 			FRotator NewRotation = FMath::RInterpConstantTo(CrowMesh->GetComponentRotation(), DiffLocation.Rotation(), DeltaTime, RotationSpeed);
 			CrowMesh->SetWorldLocationAndRotationNoPhysics(CrowMesh->GetComponentLocation(), NewRotation);
