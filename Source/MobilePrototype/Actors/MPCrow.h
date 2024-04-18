@@ -34,6 +34,9 @@ protected:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Crow")
 	float RotationSpeed = 80.0f;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Crow")
+	float MovementSwitchingDistanceSquared = 250000.0f;
+
 private:
 	bool bWait = false;
 };

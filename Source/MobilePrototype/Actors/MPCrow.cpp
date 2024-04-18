@@ -23,7 +23,8 @@ void AMPCrow::Tick(float DeltaTime)
 		FVector DiffLocation = PoiLocation - GetActorLocation();
 		DiffLocation.Normalize();
 
-		if (GetController())
+		float DistanceBetweenCrowAndPoi = FVector::DistSquared2D(GetActorLocation(), PoiLocation);
+		if (DistanceBetweenCrowAndPoi < MovementSwitchingDistanceSquared && GetController())
 		{
 			if (!GetVelocity().IsNearlyZero())
 			{
@@ -40,8 +41,9 @@ void AMPCrow::Tick(float DeltaTime)
 			FRotator NewRotation = FMath::RInterpConstantTo(CrowMesh->GetComponentRotation(), DiffLocation.Rotation(), DeltaTime, RotationSpeed);
 			CrowMesh->SetWorldLocationAndRotationNoPhysics(CrowMesh->GetComponentLocation(), NewRotation);
 
-			// Set actor location
 			FHitResult HitResult;
+
+			// Set actor location
 			FVector NewLocation = GetActorLocation() + DiffLocation * (MovementSpeed * DeltaTime);
 			SetActorLocation(NewLocation, true, &HitResult);
 
@@ -50,6 +52,9 @@ void AMPCrow::Tick(float DeltaTime)
 				// If the crow collides with something, it stops moving for a certain amount of time
 				if (HitResult.bBlockingHit)
 				{
+					AActor* HitActor = HitResult.GetActor();
+					HitActor->SetActorLocation(HitActor->GetActorLocation() + DiffLocation * (MovementSpeed * 1.5f * DeltaTime));
+
 					bWait = true;
 
 					FTimerHandle Timer;
