@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Pawn.h"
+#include "Kismet/GameplayStatics.h"
 #include "Components/SphereComponent.h"
 #include "MPCrow.generated.h"
 
@@ -17,10 +18,10 @@ protected:
 
 	virtual void Tick(float DeltaTime) override;
 
-	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly)
+	UPROPERTY(EditInstanceOnly, BlueprintReadWrite)
 	UStaticMeshComponent* CrowMesh;
 
-	UPROPERTY(EditInstanceOnly, BlueprintReadWrite)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	AActor* BenchmarkPoi = nullptr;
 
 	/** If the crow collides with something, it will not move for the specified time (in seconds) */
