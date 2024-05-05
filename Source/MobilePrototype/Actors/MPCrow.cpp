@@ -26,14 +26,14 @@ void AMPCrow::Tick(float DeltaTime)
 		float DistanceBetweenCrowAndPoi = FVector::DistSquared2D(GetActorLocation(), PoiLocation);
 		if (DistanceBetweenCrowAndPoi < MovementSwitchingDistanceSquared && GetController())
 		{
-			if (!GetVelocity().IsNearlyZero())
-			{
-				// Set mesh rotation
-				FRotator NewRotation = FMath::RInterpConstantTo(CrowMesh->GetComponentRotation(), DiffLocation.Rotation(), DeltaTime, RotationSpeed);
-				CrowMesh->SetWorldLocationAndRotationNoPhysics(CrowMesh->GetComponentLocation(), NewRotation);
-			}
-
+			
+			// Set mesh rotation
+			FRotator NewRotation = FMath::RInterpConstantTo(CrowMesh->GetComponentRotation(), DiffLocation.Rotation(), DeltaTime, RotationSpeed);
+			CrowMesh->SetWorldLocationAndRotationNoPhysics(CrowMesh->GetComponentLocation(), NewRotation);
+			
+			
 			AddMovementInput(DiffLocation);
+			
 		}
 		else if (!bWait)
 		{
